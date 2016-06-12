@@ -7,8 +7,8 @@
 //
 
 #import <UIKit/UIKit.h>
-
-@interface ViewController : UIViewController
+#import "ZYCarouselView.h"
+@interface ViewController : UIViewController<ZYCarouseSelectedDelegate>
 
 
 @end
